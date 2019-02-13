@@ -11,8 +11,9 @@ openjdk version "11.0.2" 2019-01-15
 OpenJDK Runtime Environment (build 11.0.2+9-Debian-3)
 OpenJDK 64-Bit Server VM (build 11.0.2+9-Debian-3, mixed mode, sharing)
 
-# USB communication / UDEV
-# sudo usermod -a -G dialout USERNAME
+USB communication / UDEV
+sudo usermod -a -G dialout USERNAME
+
 java -jar vnaJ.3.2.10.jar
 
 ----------------------------------------
